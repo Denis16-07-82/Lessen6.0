@@ -22,7 +22,6 @@ int AckermanFunction(int m,int n)
 }
 
 
-int number1 = Prompt("Введите число m : ");
-int number2 = Prompt("Введите число n : ");
-int numberAckerman = AckermanFunction(number1,number2);
-System.Console.WriteLine(numberAckerman);
+
+int number = AckermanFunction(3,2);
+System.Console.WriteLine(number);
